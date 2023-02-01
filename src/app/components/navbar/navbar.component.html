@@ -1,0 +1,131 @@
+
+  <div class="flex flex-wrap sm:top-5 pb-3 lg:relative absolute md:top-5 lg:top-5 top-0 w-full">
+    <div class="w-full sm:px-4 md:px-28 ">
+      <nav
+        class="relative flex flex-wrap items-center justify-between px-2 py-3 rounded bg-white/90 lg:bg-white/20 shadow-sm"
+      >
+        <div
+          class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+        >
+          <div
+            class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start"
+          >
+            <span
+              class="text-sm font-bold leading-relaxed mr-4 py-2 whitespace-nowrap uppercase bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-indigo-500 flex place-content-center gap-1"
+              href="#pablo"
+            >
+              <h1>Rune</h1>
+            </span>
+            <button
+              [ngClass]="{ hidden: menuShow, flex: !menuShow }"
+              class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+              (click)="toggleNavbar()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+
+            <button
+              [ngClass]="{ hidden: !menuShow, flex: menuShow }"
+              class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+              (click)=" toggleNavbar()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            [ngClass]="{ hidden: !menuShow, flex: menuShow }"
+            class="lg:flex lg:flex-grow items-center px-4"
+          >
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto gap-x-4">
+              <li class="nav-item py-2">
+                <h1
+                  routerLink="/inicio"
+                  class="text-xs uppercase font-medium leading-snug text-black cursor-pointer"
+                >
+                  Inicio
+                </h1>
+              </li>
+
+              <li class="nav-item py-2">
+                <h1
+                  routerLink="/botones"
+                  class="text-xs uppercase font-medium leading-snug text-black cursor-pointer"
+                >
+                  Buttons
+                </h1>
+              </li>
+
+              <li class="nav-item py-2">
+                <h1
+                  routerLink="/figura"
+                  class="text-xs uppercase font-medium leading-snug text-black cursor-pointer"
+                >
+                  Figura 3D
+                </h1>
+              </li>
+
+              <li class="nav-item py-2">
+                <h1
+                  routerLink="/login"
+                  class="text-xs uppercase font-medium leading-snug text-black cursor-pointer"
+                >
+                  Login
+                </h1>
+              </li>
+
+              <li class="nav-item py-2">
+                <h1
+                  routerLink="/register"
+                  class="text-xs uppercase font-medium leading-snug text-black cursor-pointer"
+                >
+                  Register
+                </h1>
+              </li>
+
+              <li class="nav-item py-2">
+                <h1
+                  routerLink="/items"
+                  class="text-xs uppercase font-medium leading-snug text-black cursor-pointer"
+                >
+                  Items
+                </h1>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+<router-outlet></router-outlet>

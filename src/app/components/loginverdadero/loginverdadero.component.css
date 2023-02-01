@@ -1,0 +1,10 @@
+.añadir{
+  @apply bg-slate-50
+}
+.google{
+  @apply bg-slate-50
+}
+
+.facebook{
+  @apply bg-slate-50
+}

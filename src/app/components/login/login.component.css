@@ -1,0 +1,20 @@
+.boton{
+  @apply bg-[#457B9D] uppercase;
+}
+
+.bg{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1040%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='28.26' cx='1014.61' cy='513.02' fill='url(%23SvgjsLinearGradient1041)'%3e%3c/circle%3e%3ccircle r='37.62' cx='369.62' cy='376.29' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='36.305' cx='287.5' cy='394.11' fill='url(%23SvgjsLinearGradient1042)'%3e%3c/circle%3e%3ccircle r='26.56' cx='476.25' cy='394.34' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='52.72' cx='545.84' cy='353.73' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='26.36' cx='124.6' cy='532.8' fill='url(%23SvgjsLinearGradient1043)'%3e%3c/circle%3e%3ccircle r='22.315' cx='956.51' cy='199.73' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/circle%3e%3ccircle r='18.755' cx='1267.82' cy='474.72' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1040'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='958.09' y1='513.02' x2='1071.13' y2='513.02' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='214.89' y1='394.11' x2='360.11' y2='394.11' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='71.88' y1='532.8' x2='177.32' y2='532.8' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='911.88' y1='199.73' x2='1001.14' y2='199.73' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1230.31' y1='474.72' x2='1305.33' y2='474.72' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  @apply bg-cover
+}
+
+.añadir{
+  @apply bg-cyan-500
+}
+
+.google{
+  @apply bg-red-400
+}
+
+.facebook{
+  @apply bg-[#3b5998]
+}

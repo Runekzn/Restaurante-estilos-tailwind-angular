@@ -1,0 +1,291 @@
+<app-navbar></app-navbar>
+<div class="h-screen bg-slate-100 p-4 mt-12 ">
+  <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
+    <button mat-button class="w-full mt-2 google">
+      <div class="flex items-center gap-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            class="fill-red-400"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            stroke-width="1.5"
+            d="M21.6 10.2h-9.4v3.7h5.5c-.1.9-.7 2.3-2 3.2-.8.6-2 1-3.5 1-2.6 0-4.9-1.7-5.7-4.2-.2-.6-.3-1.3-.3-2s.1-1.4.3-2c.1-.2.1-.4.2-.5.9-2.1 3-3.6 5.5-3.6 1.9 0 3.1.8 3.9 1.5l2.8-2.8C17.2 3 14.9 2 12.2 2 8.3 2 4.9 4.2 3.3 7.5c-.7 1.4-1.1 2.9-1.1 4.5s.4 3.1 1.1 4.5c1.6 3.3 5 5.5 8.9 5.5 2.7 0 5-.9 6.6-2.4 1.9-1.7 3-4.3 3-7.4 0-.8-.1-1.4-.2-2Z"
+          />
+        </svg>
+        <h1 class="text-red-400">Registrarse con Google</h1>
+      </div>
+    </button>
+
+    <button mat-button class="w-full mt-2 facebook">
+      <div class="flex items-center gap-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="white"
+          viewBox="0 0 24 24"
+        >
+          <path
+            class="fill-[#3b5998]"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="1.5"
+            d="M8.25 6.125V9.75h3.25c.25 0 .375.25.375.5l-.5 2.375c0 .125-.25.25-.375.25H8.25V22H4.5v-9H2.375c-.25 0-.375-.125-.375-.375V10.25c0-.25.125-.375.375-.375H4.5V5.75C4.5 3.625 6.125 2 8.25 2h3.375c.25 0 .375.125.375.375v3c0 .25-.125.375-.375.375h-3c-.25 0-.375.125-.375.375Z"
+          />
+        </svg>
+        <h1 class="text-[#3b5998]">Registrarse con Facebook</h1>
+      </div>
+    </button>
+
+    <button mat-button class="mt-2 uppercase text-xs añadir">
+      <h1
+        class="text-cyan-500 font-medium flex items-center content-center gap-1"
+      >
+        <div></div>
+        Añadir
+      </h1>
+    </button>
+
+    <button mat-button class="mt-2 uppercase text-xs añadir">
+      <h1
+        class="text-cyan-500 font-medium flex items-center content-center gap-1"
+      >
+        <div></div>
+        Editar
+      </h1>
+    </button>
+
+    <button mat-button class="mt-2 uppercase text-xs añadir">
+      <h1
+        class="text-cyan-500 font-medium flex items-center content-center gap-1"
+      >
+        <div></div>
+        Eliminar
+      </h1>
+    </button>
+
+    <div class="grid grid-cols-3 items-center">
+      <button mat-icon-button class="grid place-items-center añadir">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="#1D3557"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M6 12h12m-6 6V6"
+          />
+        </svg>
+      </button>
+
+      <button mat-icon-button class="grid place-items-center añadir">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="#457b9d"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            stroke-width="1.5"
+            d="M13.844 3.68 3.464 14.058c-.41.41-.792 1.172-.88 1.73l-.557 3.957c-.205 1.437.792 2.433 2.228 2.228l3.959-.557c.557-.088 1.349-.469 1.73-.88l10.38-10.377c1.79-1.789 2.64-3.87 0-6.508-2.61-2.61-4.691-1.76-6.48.029Z"
+          />
+          <path
+            stroke="#457b9d"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            stroke-width="1.5"
+            d="M12 7a7.174 7.174 0 0 0 5 5"
+          />
+        </svg>
+      </button>
+
+      <button mat-icon-button class="grid place-items-center añadir">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="#e63946"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M21 5.98c-3.33-.33-6.68-.5-10.02-.5-1.98 0-3.96.1-5.94.3L3 5.98m5.5-1.01.22-1.31C8.88 2.71 9 2 10.69 2h2.62c1.69 0 1.82.75 1.97 1.67l.22 1.3m3.35 4.17-.65 10.07C18.09 20.78 18 22 15.21 22H8.79C6 22 5.91 20.78 5.8 19.21L5.15 9.14m5.18 7.36h3.33m-4.16-4h5"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <div class="col-span-3">
+      <label
+        for="default-search"
+        class="mb-2 text-sm font-medium text-gray-900 sr-only"
+        >Search</label
+      >
+      <div class="relative">
+        <div
+          class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+        >
+          <svg
+            class="w-5 h-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="rgb(17 24 39 / 1)"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="m22 22-2-2m-8.5 1a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19Z"
+            />
+          </svg>
+        </div>
+        <input
+          type="search"
+          id="default-search"
+          class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="Barra de busqueda"
+          required
+        />
+        <button
+          type="submit"
+          class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+
+    <div class="col-span-3">
+      <label
+        for="default-search"
+        class="mb-2 text-sm font-medium text-gray-900 sr-only"
+        >Search</label
+      >
+      <div class="relative">
+        <div
+          class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+        >
+          <svg
+            class="w-5 h-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="rgb(17 24 39 / 1)"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="m22 22-2-2m-8.5 1a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19Z"
+            />
+          </svg>
+        </div>
+        <input
+          type="search"
+          id="default-search"
+          class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-50 rounded-lg bg-gray-50 focus:ring-[#457B9D] focus:border-[#457B9D]"
+          placeholder="Barra de busqueda"
+          required
+        />
+      </div>
+    </div>
+
+    <div class="col-span-3">
+      <mat-form-field class="w-full rounded-md h-20">
+        <mat-label class="flex items-center content-center gap-2">
+          <svg
+            class="w-4 h-4"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="rgb(17 24 39 / 1)"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="m22 22-2-2m-8.5 1a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19Z"
+            />
+          </svg>
+          <h1>Buscar</h1>
+        </mat-label>
+        <input matInput type="search" />
+      </mat-form-field>
+    </div>
+
+    <div class="col-span-3">
+      <label class="relative block">
+        <span class="sr-only">Search</span>
+        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+          <svg
+            class="h-5 w-5 fill-slate-300"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="#cbd5e1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="m22 22-2-2m-8.5 1a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19Z"
+            />
+          </svg>
+        </span>
+        <input
+          class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
+          placeholder="Buscar"
+          type="text"
+          name="search"
+        />
+      </label>
+    </div>
+  </div>
+
+  <div class="w-full pt-4">
+    <button
+      class="bg-slate-50 px-4 py-2 flex rounded-md border border-slate-100 dark:bg-slate-700"
+    >
+      <div class="flex gap-2 items-center content-center">
+        <svg
+          class="h-[18px] w-[18px] fill-slate-300 dark:fill-slate-800 stroke-slate-400 dark:stroke-slate-900"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="m22 22-2-2m-8.5 1a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19Z"
+          />
+        </svg>
+        <h1 class="text-gray-300 text-sm italic dark:text-slate-500">Buscar</h1>
+      </div>
+      <div></div>
+    </button>
+  </div>
+</div>
